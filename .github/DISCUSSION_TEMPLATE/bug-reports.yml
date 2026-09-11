@@ -1,11 +1,10 @@
-name: Bug Report
-description: Create a report to help us improve
+title: "[Bug Report] "
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        We welcome bug reports! Please see our [contribution guidelines](https://github.com/project-campground/Campgound/blob/main/CONTRIBUTING.md#writing-a-good-bug-report) for more information on writing a good bug report. This template will help us gather the information we need to start the triage process.
+        We welcome bug reports! Please see our [contribution guidelines](https://github.com/project-campground/Campground/blob/main/CONTRIBUTING.md) for more information on writing a good bug report. This template will help us gather the information we need to start the triage process.
   - type: textarea
     id: background
     attributes:
@@ -19,7 +18,7 @@ body:
     attributes:
       label: Reproduction Steps
       description: |
-        Please include minimal steps to reproduce the problem if possible. E.g.: the smallest possible code snippet; or a small project, with steps to run it. If possible include text as text rather than screenshots (so it shows up in searches).
+        Please include minimal steps to reproduce the problem if possible. E.g.: the smallest possible code snippet or a step-by-step guide on what you did when the error occurred. If possible include text as text rather than screenshots (so it shows up in searches).
       placeholder: Minimal Reproduction
     validations:
       required: true
@@ -46,7 +45,7 @@ body:
     attributes:
       label: Regression?
       description: |
-        Did this work in a previous build or release of .NET Core, or from .NET Framework? If you can try a previous release or build to find out, that can help us narrow down the problem. If you don't know, that's OK.
+        Did this work in a previous version of Campground? If you can try a previous release or build to find out, that can help us narrow down the problem. If you don't know, that's OK.
       placeholder: Regression?
     validations:
       required: false
@@ -64,12 +63,13 @@ body:
     attributes:
       label: Configuration
       description: |
-        Please provide more information on your .NET configuration:
-          * Which version of .NET is the code running on?
+        Please provide more information on your Campground configuration:
+          * Which version of the Campground client are you using, if applicable?
+          * Which version of the Campground server are you using, if applicable?
           * What OS and version, and what distro if applicable?
           * What is the architecture (x64, x86, ARM, ARM64)?
           * Do you know whether it is specific to that configuration?
-          * If you're using Blazor, which web browser(s) do you see this issue in?
+          * If you're using the Campground website, which web browser(s) do you see this issue in?
       placeholder: Configuration
     validations:
       required: false
