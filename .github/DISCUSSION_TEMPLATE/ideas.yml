@@ -1,0 +1,40 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome Campground proposals! This template will help us gather the information we need to start the review process.
+  - type: textarea
+    id: background
+    attributes:
+      label: Background and motivation
+      description: Please describe the purpose and value of the new feature here.
+      placeholder: Those with dyslexia may have issues reading some fonts, which can make it hard for these campers to use the app.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: |
+        Please describe the look and function of the new feature here. If this is a code suggestion, include an example of how your new API should be consumed.
+      placeholder: We should have options in settings for selecting dyslexia-friendly fonts.
+    validations:
+      required: true
+  - type: textarea
+    id: alternative-designs
+    attributes:
+      label: Alternative Designs
+      description: Are there other solutions besides the proposal that could satisfy the background or motivation? Be sure to include any drawbacks.
+      placeholder: The default font could be dyslexia-friendly.
+    validations:
+      required: false
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: |
+        Please mention any risks this change might bring, such as accessibility concerns, performance regressions, potential for abuse, etc.
+      placeholder: Risks
+    validations:
+      required: false
