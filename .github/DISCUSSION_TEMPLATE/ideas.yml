@@ -1,4 +1,7 @@
 title: "[Idea] "
+labels:
+  - "Enhancement",
+  - "Status/Needs Triage"
 body:
   - type: markdown
     attributes:
