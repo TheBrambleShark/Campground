@@ -1,0 +1,39 @@
+name: Feature Hero
+description: A parent issue for tracking development of a feature within Campground.
+title: "[Feature Hero]: <title>"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hello, and thanks for your interest in contributing to Project Campground! If you haven't been invited by a Camp Councillor to open an issue, please instead open an Idea discussion at hhttps://github.com/project-campground/Campground/discussions/categories/ideas and we'll try to give you feedback on how to get to an issue-ready proposal.
+
+        This issue should give a very brief description of the feature, with the more complete description and design being contained in the proposal specification. This issue will be used for tracking purposes, and should have enough information to make it obvious what the feature is about for a casual reader.
+  - type: input
+    id: feature-name
+    attributes:
+      label: Feature Name
+      description: A plain text name of the feature. Ask a councillor if you're not sure.
+      placeholder: My Feature
+    validations:
+      required: true
+  - type: input
+    id: feature-discussion-link
+    attributes:
+      label: Link to the feature discussion
+    validations:
+      required: true
+  - type: input
+    id: feature-rfc-link
+    attributes:
+      label: Link to the RFC for this issue
+      description: Only if required. As your councillor if your not sure.
+  - type: checkboxes
+    id: areas
+    attributes:
+      label: What areas does change affect? Check all that apply.
+      options:
+        - label: Front End
+        - label: Back End
+        - label: Documentation
+        - label: Policy

@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report an issue with Campground
+    url:  https://github.com/project-campground/Campground/discussions/new?category=bug-reports
+    about: Is something broken or not working as expected?
+  - name: Idea for Campground
+    url:  https://github.com/project-campground/Campground/discussions/new?category=ideas
+    about: Have an idea you think would make Campground better?
+  - name: Question about Campground
+    url:  https://github.com/project-campground/Campground/discussions/new?category=q-a
+    about: Have questions about how things work or how to do something on Campground?
+  - name: Create an issue hero
+    url:  https://github.com/project-campground/Campground/issues/new/choose
+    about: Create a feature hero to track development of a new feature (maintainers only please).
